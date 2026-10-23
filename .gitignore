@@ -1,0 +1,44 @@
+# Publish only the reviewed project description and licensing analysis for now.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/docs/
+/docs/*
+!/docs/LICENSING.md
+
+# Keep agent workspaces, instructions, and memory private at every depth.
+[Aa][Gg][Ee][Nn][Tt]/
+[Aa][Gg][Ee][Nn][Tt][Ss].*
+[Mm][Ee][Mm][Oo][Rr][Yy].*
+[Cc][Ll][Aa][Uu][Dd][Ee].*
+[Gg][Ee][Mm][Ii][Nn][Ii].*
+
+# Local baselines, diagnostics, backups, and personal game preferences.
+/MO336-official/
+/_diag/
+/RA2MO.ini
+*.bak
+*.backup
+*.tmp
+*.log
+*.dmp
+~$*
+
+# Local credentials, environments, and editor state.
+.env
+.env.*
+*.pem
+*.key
+.venv/
+venv/
+__pycache__/
+node_modules/
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Game files, MIX archives, maps, binaries, and the existing Wiki remain local.
+# Expand the allowlist only after their publication rights have been reviewed.
