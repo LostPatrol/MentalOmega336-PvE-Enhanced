@@ -1,0 +1,4 @@
+Mental Omega 3.3.6 PVE Enhanced
+玩家网站：打开 index.html，完整保留本目录。
+图鉴搜索筛选需开启 JavaScript；详情、玩法总览与地图说明可直接阅读。
+开发者资料：downloads/mo336-developer-docs.zip，请完整解压后打开其中 index.html。

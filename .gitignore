@@ -1,11 +1,36 @@
-# Publish only the reviewed project description and licensing analysis for now.
+# Publish the overlay and its player documentation using an explicit allowlist.
 /*
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/Build-Overlay.ps1
+!/THIRD_PARTY_NOTICES.md
+!/artmo.ini
+!/rulesmo.ini
+!/Soundmo.INI
+!/thememo.ini
+!/uimd.ini
+!/ra2md.csf
+!/digits.shp
+!/pips.shp
+!/game.fnt
+!/expandmo34.mix
+!/expandmo35.mix
+!/Phobos.dll
+!/INI/
+/INI/*
+!/INI/MentalOmegaMaps.ini
+!/MapsMO/
+/MapsMO/*
+!/MapsMO/Demonic Modification/
+!/licenses/
 !/docs/
 /docs/*
 !/docs/LICENSING.md
+!/docs/INSTALL.md
+!/docs/modified-wiki/
+/docs/modified-wiki/*
+!/docs/modified-wiki/html-refine/
 
 # Keep agent workspaces, instructions, and memory private at every depth.
 [Aa][Gg][Ee][Nn][Tt]/
@@ -40,5 +65,5 @@ node_modules/
 Thumbs.db
 .DS_Store
 
-# Game files, MIX archives, maps, binaries, and the existing Wiki remain local.
-# Expand the allowlist only after their publication rights have been reviewed.
+# Generated ZIPs and manifests are published as release assets, not Git blobs.
+/dist/

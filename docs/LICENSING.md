@@ -1,12 +1,12 @@
 # 许可证与素材分发分析
 
-核查日期：2026-10-23。本文是本项目的许可选择建议，不构成对第三方内容的授权，也不是已经生效的统一许可证。
+更新日期：2026-10-24。本文是本项目的许可选择建议，不构成对第三方内容的授权，也不是已经生效的统一许可证。
 
 ## 当前决定
 
-项目维护者尚未取得本项目所需的公开发布授权，因此当前仓库只发布项目说明和本分析。游戏 INI、地图、MIX、DLL、字体、图像、文本资源以及含第三方内容的现有 Wiki 均保留在本地，不纳入首次公开提交。
+项目维护者决定参考社区项目，以“玩家自备 MO 3.3.6、解压覆盖”的形式公开当前修改层。仓库与覆盖包包含规则、地图、两个 MIX、界面与文本资源、Phobos build-38 及离线玩家图鉴；不提供原游戏或 MO 官方完整本体。
 
-目前不设置覆盖全仓库的 MIT、GPL 或 CC 许可证。后续获得授权后，应按内容分别明确许可及适用路径，保留原作者署名和许可条件。
+目前不设置覆盖全仓库的 MIT、GPL 或 CC 许可证。覆盖分发形式本身不改变上游条款，也不表示项目已取得 MO 官方授权。作者提供的原创范围与尚未确认的第三方素材来源见[署名与权利说明](../THIRD_PARTY_NOTICES.md)。
 
 ## 推荐方案
 
@@ -52,8 +52,8 @@ expandmo35.mix  f66c98bd39b69ef738aac69f2ffde0cfd07d856d59645cce2b1092075f94cf58
 
 历史版本 [build-38 的 LICENSE.md](https://github.com/Phobos-developers/Phobos/blob/build-38/LICENSE.md) 明确为 **GNU LGPL v3**，应核对这一版本，不能直接套用最新版项目的许可。[同版本 README](https://github.com/Phobos-developers/Phobos/blob/build-38/README.md) 与 [Build 38 发布页](https://github.com/Phobos-developers/Phobos/releases/tag/build-38) 可用于确认来源。
 
-当前本地 DLL 的版本信息指向 Development Build #38，但尚未与上游发布二进制做字节一致性比对。因此不能仅凭版本字符串声称本地文件就是未经修改的官方构建。
+本地 DLL 已与官方 Build 38 发布文件完成 SHA-256 比对，字节一致。包内随附 LGPL v3、GPL v3 文本与精确源码提交及递归获取子模块的说明，见[署名与权利说明](../THIRD_PARTY_NOTICES.md)。
 
 如以后分发 DLL，应保留版权及许可声明，提供 LGPL v3 及其纳入的 GPL v3 文本，并按许可提供与所分发二进制对应的完整源码及必要构建材料；修改过的 DLL 需要相应修改后源码。网络分发源码可参考 [GNU 关于异站源码的说明](https://www.gnu.org/licenses/gpl-faq.en.html#SourceAndBinaryOnDifferentSites)，不能仅给一个可能变化的项目首页。
 
-当前可将 Phobos 作为由用户从指定官方版本自行获取的外部依赖，不在本仓库分发 DLL。使用 LGPL 组件本身不意味着所有游戏配置、素材和独立文档自动成为 GPL。
+本覆盖包分发官方未修改的 build-38 DLL。使用 LGPL 组件本身不意味着所有游戏配置、素材和独立文档自动成为 GPL。

@@ -1,4 +1,6 @@
-# Normalize the public documentation without rewriting local game assets.
+# Preserve game configuration encodings and binary archives byte for byte.
+* -text
 *.md text eol=lf
+*.ps1 text eol=crlf
 .gitignore text eol=lf
 .gitattributes text eol=lf
