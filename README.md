@@ -2,6 +2,8 @@
 
 **心灵终结 3.3.6 PVE 增强版**，由 [LostPatrol](https://github.com/LostPatrol) 维护的非官方个人修改项目，围绕合作挑战、单位与科技解锁、平衡调整和玩法资料整理展开。
 
+[在线资料站](http://47.93.249.150/mo336-pve-enhanced/)：浏览单位图鉴、地图介绍与阵营科技树。
+
 ## 项目内容
 
 本项目以 Mental Omega 3.3.6 为基础，包含游戏规则与资源覆盖层、10 张挑战地图，以及单位图鉴、地图说明和科技树资料。它依赖原游戏和 Mental Omega，不是独立游戏或完整安装包。
@@ -10,7 +12,7 @@
 
 从 [Releases](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/releases) 下载 `MentalOmega336-PvE-Enhanced-*-overlay.zip`，将包内文件解压到一份独立的、已可正常运行的 **Mental Omega 3.3.6 简体中文安装目录**，同意覆盖后通过 `MentalOmegaClient.exe` 启动。不要与其他任务包或规则修改包混装。
 
-覆盖包包括当前规则、两个 MIX、地图及预览、文本与界面资源、官方 Phobos build-38 和离线玩家图鉴。打开 `docs/modified-wiki/html-refine/index.html` 可阅读图鉴。
+覆盖包包括当前规则、两个 MIX、地图及预览、文本与界面资源、官方 Phobos build-38 和离线玩家图鉴。打开 `docs/modified-wiki/html-refine/index.html` 可离线阅读图鉴，也可访问上方在线资料站。
 
 **当前为预发布版本，未完成游戏内运行验证。** 已补齐挑战模式入口、“致命冲击”地图元数据及客户端16色配置；仍缺少 `rulesmo-JY.ini`，部分地图存在待确认的脚本与选位限制。安装、备份及限制详见[安装说明](docs/INSTALL.md)。
 

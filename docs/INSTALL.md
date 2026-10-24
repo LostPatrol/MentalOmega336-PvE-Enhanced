@@ -9,7 +9,7 @@
 1. 下载 Release 的 `MentalOmega336-PvE-Enhanced-*-overlay.zip`，可使用随附的 `SHA256SUMS.txt` 核对 ZIP。
 2. 关闭游戏和启动器，将 ZIP **内部内容**解压到副本根目录，使 `rulesmo.ini` 与 `MentalOmegaClient.exe` 位于同一层，同意覆盖现有文件。
 3. 包内包含官方 Phobos Development Build #38。此版本是当前规则的依赖，不建议未经验证更换为其他版本。
-4. 通过 `MentalOmegaClient.exe` 启动。离线图鉴入口是 `docs/modified-wiki/html-refine/index.html`。
+4. 通过 `MentalOmegaClient.exe` 启动。可访问[在线资料站](http://47.93.249.150/mo336-pve-enhanced/)查看单位图鉴、地图介绍与科技树；离线入口是 `docs/modified-wiki/html-refine/index.html`。
 
 自定义地图位于“魔改合作任务”模式。升天、坚韧、炼狱、自由、均势、没落之地、白给巨兽、重装武器的大厅最多容纳两名玩家，剧情 AI 自动加入。白给巨兽仍需按简报分别选择欧洲联盟、太平洋阵线，重装武器仍需分别选择美国、苏俄；旧客户端只能限制两名玩家共用的可选国家集合，不能阻止两人互换国家。
 
