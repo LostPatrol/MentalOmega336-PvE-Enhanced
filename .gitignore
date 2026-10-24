@@ -20,6 +20,9 @@
 !/INI/
 /INI/*
 !/INI/MentalOmegaMaps.ini
+!/Resources/
+/Resources/*
+!/Resources/GameOptions.ini
 !/MapsMO/
 /MapsMO/*
 !/MapsMO/Demonic Modification/

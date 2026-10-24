@@ -1,7 +1,7 @@
 # Build a byte-preserving overlay ZIP with file hashes for an existing MO 3.3.6 install.
 [CmdletBinding()]
 param(
-    [string]$Version = '2026.10.24-preview.1',
+    [string]$Version = '2026.10.24-preview.3',
     [string]$OutputDirectory = ''
 )
 
@@ -15,7 +15,7 @@ $packageRoots = @(
     'artmo.ini', 'rulesmo.ini', 'Soundmo.INI', 'thememo.ini', 'uimd.ini',
     'ra2md.csf', 'digits.shp', 'pips.shp', 'game.fnt',
     'expandmo34.mix', 'expandmo35.mix', 'Phobos.dll',
-    'INI/MentalOmegaMaps.ini', 'MapsMO/Demonic Modification',
+    'INI/MentalOmegaMaps.ini', 'Resources/GameOptions.ini', 'MapsMO/Demonic Modification',
     'docs/modified-wiki/html-refine', 'licenses',
     'README.md', 'THIRD_PARTY_NOTICES.md', 'docs/INSTALL.md', 'docs/LICENSING.md'
 )

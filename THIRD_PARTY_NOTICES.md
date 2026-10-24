@@ -10,6 +10,7 @@
 - 体素除官方原版外，含少量公开免费素材。其作者、原发布链接和逐项再分发条件尚待补齐；“公开免费”不等于无版权或可任意再许可。
 - MIX 内音频、SHP、PCX 等其余资源及独立字体、文本资源的具体来源尚未逐项确认。本说明不声称它们全部由维护者原创。
 - 离线图鉴包含从游戏素材制作的图标和地图预览，其第三方部分同样保留原权利。
+- `Resources/GameOptions.ini` 基于 MO 随附的 CnCNet 客户端配置，原作者为 Rampastring，Speeder 修改；保留文件内原始署名，感谢 Rampastring 与 The Dawn of the Tiberium Age。
 
 ## Phobos Development Build #38
 

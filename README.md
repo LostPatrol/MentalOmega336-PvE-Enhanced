@@ -12,7 +12,7 @@
 
 覆盖包包括当前规则、两个 MIX、地图及预览、文本与界面资源、官方 Phobos build-38 和离线玩家图鉴。打开 `docs/modified-wiki/html-refine/index.html` 可阅读图鉴。
 
-**当前为预发布快照，未完成游戏内运行验证。** 已知缺少 `SP_LIBRA.ini`、`rulesmo-JY.ini`，挑战模式配置及“致命冲击”地图的列表元数据也不完整。安装、备份及限制详见[安装说明](docs/INSTALL.md)。
+**当前为预发布版本，未完成游戏内运行验证。** 已补齐挑战模式入口、“致命冲击”地图元数据及客户端16色配置；仍缺少 `rulesmo-JY.ini`，部分地图存在待确认的脚本与选位限制。安装、备份及限制详见[安装说明](docs/INSTALL.md)。
 
 游戏与模组请通过各自的官方渠道获取：[Mental Omega 官方网站](https://mentalomega.com/)。
 
