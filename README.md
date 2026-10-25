@@ -1,90 +1,57 @@
-# 心灵终结 3.3.6 PVE 增强版
+# Mental Omega 3.3.6 PVE Enhanced
 
-**Mental Omega 3.3.6 PVE Enhanced** 是基于心灵终结 3.3.6 的非官方 PVE 修改版，面向喜欢打电脑、发展后期科技和合作攻坚的玩家。本版扩展高级单位与英雄的获取路线，加入新的科技建筑、护盾和支援技能，并提供 **10 张魔改合作任务**。
+**Mental Omega 3.3.6 PVE Enhanced** is an unofficial PVE modification of Mental Omega 3.3.6, mainly for players who enjoy single-player and cooperative PVE.
 
-**[下载覆盖包](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/releases) · [在线玩家资料站](http://47.93.249.150/mo336-pve-enhanced/) · [安装说明](docs/INSTALL.md)**
+**[简体中文](README.zh-CN.md) · [Download Overlay](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/releases/download/v0.1.0-beta/MentalOmega336-PvE-Enhanced-0.1.0-beta-overlay.zip) · [Online Player Wiki](http://47.93.249.150/mo336-pve-enhanced/)**
 
-> 当前为预发布版本，尚未完成游戏内与联机验证。本项目提供覆盖包，需要已能正常运行的 **Mental Omega 3.3.6 简体中文版**。
+> [!WARNING]
+>
+> The balance changes are not designed for PVP. Using this modification in PVP rooms in the multiplayer lobby is not recommended.
+>
+> Multiplayer has not yet been verified for the current version.
 
-本页介绍仓库当前内容。现有 [preview.1 发布包](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/releases/tag/v2026.10.24-preview.1)尚未包含后续的合作任务入口、大厅与颜色配置修复；使用该包时请以其发布说明为准。要使用包含这些修复的版本，可下载当前仓库后[自行打包](#自行打包)。
+## Main Features
 
-## 主要玩法与改动
+### [Online Wiki](http://47.93.249.150/mo336-pve-enhanced/)
 
-- **扩展后期科技路线。** 盟军可发展金川装配车间、过载的悖论电池与气象晶体；苏军可发展纳米离心机与改良科技中心；厄普西隆可发展新的生物、精神与实验科技建筑，继续解锁高级战力和支援能力。
-- **使用更多高级单位与英雄。** 实验级天启坦克、超级沃尔科夫、超级天秤、超时空西格弗雷德等内容进入新增/解锁路线；拉什迪、雷泽诺夫、库可夫等原版特殊单位也有了新的获取或建造安排。具体国家、前置、获取方式和限造可在图鉴中查询。
-- **围绕护盾、强化和支援搭配部队。** 部分单位拥有独立护盾，自愈和破盾重生与本体回血分别计算；拉什迪可强化部分厄普西隆基础坦克，防御指令、白磷火强化等技能则提供额外支援。
-- **建设经济与训练体系。** 科技银行、矿石贮存罐等建筑提供持续收入，另有供电和训练建筑，可兼顾基地经营与后期科技发展。
-- **重新搭配原有兵种。** 调整涉及造价、生命、武器、射程、装填与建造条件，覆盖步兵、载具、舰艇、飞行器、建筑和支援技能。焚风基础火力也有调整，各单位的变化可直接对照官方 3.3.6 查看。
-- **挑战带有剧情目标的合作任务。** 十张任务包含基地攻防、登陆推进、护送撤离和双线协同；部分关卡拥有独立的单位与科技规则。玩家需要按任务分配阵营、位置和分工。
-- **更方便地组织大规模作战。** 生产排队上限从 49 提高到 99，开放敌方军衔显示，客户端与游戏内统一为 16 种玩家颜色。
+Or browse the offline wiki: `docs/modified-wiki/html/index.html`
 
-当前玩家图鉴收录 **108 项新增/解锁内容**（64 个作战单位、23 座建筑、21 项支援技能），另收录 **173 项单位、建筑和支援技能调整**。其中“新增”包含原创或移植内容，“解锁”包含原版内容的开放或重新安排；战役/特殊单位与 AI 专属变种另列，不能全部视作常规可建造单位。
+**108 additions/unlocks**, **173 balance adjustments**, plus **138 campaign/special units and AI-only variants**.
 
-## 十张合作任务
+- **Expanded late-game technology:** New technology trees, structures, and support powers unlock advanced units and support capabilities.
+- **More advanced units and heroes:** New ways to build special, campaign-only, and infiltration-unlocked units from the original game.
+- **New mechanics:** Features such as Phobos shields, with reworked weapon effects for some units.
+- **Extensive balance changes:** Adjusted stats and mechanics for over a hundred units; Foehn has fewer changes.
+- **Cooperative missions/campaigns:** 10 new cooperative mission maps, including base assaults and defense, landing operations, and escort and evacuation missions.
+- **Quality-of-life improvements:** Visible enemy ranks, automatic building repairs, and disabling various annoying AI support powers.
 
-在启动器中选择 **“魔改合作任务”** 模式。下表列出玩家阵营和主要目标；完整简报、地图预览与行动提示见[地图介绍](http://47.93.249.150/mo336-pve-enhanced/MAPS.html)。
+## How to Use
 
-| 任务 | 玩家阵营 / 位置 | 主要玩法 |
-| --- | --- | --- |
-| 升天 | 欧洲联盟，1、2 号位 | 在南极建立前线防空阵地，借助科技增援平台推进，削弱敌军黄金舰队增援。 |
-| 坚韧 | 心灵军团，1、2 号位 | 清除岸防、建立登陆基地，在总部守卫舰队支援下攻入焚风浮岛要塞。 |
-| 炼狱 | 中国，1、2 号位 | 进攻托托亚岛的厄普西隆基地，利用海陆火力突破心灵武器与隧道防线。 |
-| 自由 | 总部守卫，1、2 号位 | 抵挡阿拉斯加的持续空袭，保护建造场，寻找识别码以重启废弃苏联基地。 |
-| 均势 | 苏俄，1、2 号位 | 分兵守住两处码头，保护仓库、战列舰和传送仪，掩护资料与设施转移。 |
-| 没落之地 | 欧洲联盟，1、2 号位 | 保护技师、修复雷达球，在援军抵达前守住前哨，再反攻敌军基地。 |
-| 白给巨兽 | 1 号位欧洲联盟；2 号位太平洋阵线 | 保护间谍、破坏控制节点，重启并保全长剑毁灭机甲，进攻苏军基地。 |
-| 重装武器 | 1 号位美国；2 号位苏俄 | 摧毁敌方科技建筑取得改装资料，协调双方的单位选择与支援装备。 |
-| 钢铁长城 | 中国，手动选择 3、4 号位 | 守住前线要塞，抵挡空袭与超时空突击，削弱盟军的要塞炮和支援体系。 |
-| 致命冲击 | 玩家 1、2 号位；阵营配置待确认 | 正面与侧后方协同，摧毁天剑系统、心灵信标和能量源，保护登月火箭平台。 |
+1. A clean **Simplified Chinese installation of Mental Omega 3.3.6** is recommended. Do not mix this with other mission packs.
+2. Download `MentalOmega336-PvE-Enhanced-0.1.0-beta-overlay.zip` from [Releases](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/releases/tag/v0.1.0-beta). Choose the overlay ZIP.
+3. Extract all files from the ZIP into the root of your game copy and accept overwrites.
+4. Launch the game and enter Skirmish, or select a map under “魔改合作任务” (Modified Cooperative Missions).
 
-前八张任务的大厅最多容纳两名玩家，剧情 AI 自动加入。请按表设置国家与位置；致命冲击还需手动设置友军 3 号位、敌军 4 至 8 号位，八个席位不代表八人合作。具体配置与限制见[安装说明](docs/INSTALL.md)。
+## Known Issues
 
-## 查单位、解锁条件和科技树
+- Some maps may display dialogs.
+- Updates made after the release of early maps mean those maps are not guaranteed to remain fully playable in the current version.
+- Some missions require manually selecting a country or starting position.
 
-[在线玩家资料站](http://47.93.249.150/mo336-pve-enhanced/)可按名称、阵营和类型查找内容，不需要安装游戏即可阅读。
+Report problems through [Issues](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/issues) or <lostpatrol3@gmail.com>, with the necessary details.
 
-| 想了解什么 | 从这里查看 |
-| --- | --- |
-| 本版有哪些玩法变化，护盾和强化如何理解？ | [玩法总览](http://47.93.249.150/mo336-pve-enhanced/SUMMARY.html) |
-| 有哪些新单位、英雄、建筑与支援技能？ | [新增/解锁](http://47.93.249.150/mo336-pve-enhanced/NEW.html) |
-| 原有单位增强或削弱了什么？ | [平衡性调整](http://47.93.249.150/mo336-pve-enhanced/BALANCE.html) |
-| 某个国家能造什么，下一步该攀哪条科技？ | [四阵营科技树](http://47.93.249.150/mo336-pve-enhanced/TECH.html) |
+## Packaging
 
-单位详情包含建造前提、解锁关系、造价、生命与护盾、武器数值和特殊效果。科技树支持国家筛选、搜索与缩放。任务可能覆盖全局规则，关卡内的可用内容以任务设定为准。
-
-覆盖包也附带完整离线玩家资料站：解压后用浏览器打开 `docs/modified-wiki/html-refine/index.html`，保留整个 `html-refine` 文件夹即可离线使用。
-
-## 下载、安装与开局
-
-1. 准备一份已能正常进入游戏的 **Mental Omega 3.3.6 简体中文版**，复制整个安装目录作为本版专用副本。游戏与模组请通过各自官方渠道获取：[Mental Omega 官网](https://mentalomega.com/)。
-2. 从 [Releases](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/releases) 下载 `MentalOmega336-PvE-Enhanced-*-overlay.zip`。应下载覆盖 ZIP；GitHub 自动生成的 `Source code` 压缩包用于源码归档。
-3. 关闭游戏和启动器，将 ZIP **内部文件**解压到副本根目录，同意覆盖。确认 `rulesmo.ini` 与 `MentalOmegaClient.exe` 位于同一层。
-4. 通过 `MentalOmegaClient.exe` 启动，在“魔改合作任务”中选择地图，按简报设置阵营与位置。联机双方应使用相同覆盖包与 Phobos 版本。
-
-包内已提供所需的 Phobos build-38、地图及预览、规则与界面资源，无需另找 DLL。部分界面功能还需在个人设置中开启，设置方法见[完整安装说明](docs/INSTALL.md)。
-
-不要与其他任务包或规则修改包混装。恢复原版时使用安装前保留的目录；删除覆盖包文件无法还原被覆盖的文件。启动器更新也可能覆盖本版修改。
-
-## 当前状态与已知问题
-
-- 主规则仍引用缺失的 `rulesmo-JY.ini`，依赖其定义的内容可能不完整。
-- 白给巨兽的机甲撤离后卡屏问题仍待定位；致命冲击、均势、白给巨兽仍有未恢复的脚本引用，可能影响任务推进。
-- 部分任务需要手动设置国家或位置，尤其是钢铁长城与致命冲击；不能只按大厅人数直接开局。
-
-图鉴依据静态配置整理，部分机制仍待实测；详细限制见[安装说明](docs/INSTALL.md#当前预发布限制)。可通过 [Issues](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/issues) 反馈问题，请附上覆盖包版本、地图、单人或联机、双方阵营与位置，以及出错阶段、截图或日志。
-
-## 自行打包
-
-通过仓库页面的 **Code → Download ZIP** 下载当前仓库并解压，或使用 Git 克隆。在解压后的仓库根目录用 PowerShell 运行：
+Download this repository or clone it with Git. Run the following in PowerShell from the repository root:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\Build-Overlay.ps1
 ```
 
-输出位于 `dist/`，包括覆盖 ZIP、逐文件 SHA-256 清单和压缩包校验文件。打包保留游戏文件原始字节，不需要 Python、地图编辑器或游戏本体。
+Output is placed in `dist/`.
 
-## 许可与致谢
+## Licensing and Acknowledgements
 
-当前未授予整包统一的开源许可证。原创与第三方内容说明见[署名与权利说明](THIRD_PARTY_NOTICES.md)，许可边界见[许可证分析](docs/LICENSING.md)。Phobos build-38 沿用 LGPL v3，随附许可及对应源码链接。
+See [Third-Party Notices](THIRD_PARTY_NOTICES.md) for original and third-party content attributions and rights. Phobos build-38 remains under LGPL v3; its license and corresponding source link are included. This repository contains both original content and modifications based on the official Mental Omega content. It is shared for discussion and convenience; please respect the original creators and do not redistribute.
 
-感谢 Mentalmeisters、Phobos 开发者及各素材作者。本项目与 Mental Omega 官方及 Electronic Arts 无隶属关系，未获其认可或支持；相关名称与素材权利归各自权利人所有。
+Thanks to Mentalmeisters, the Phobos developers, and all asset creators. This project is not affiliated with, endorsed by, or supported by the official Mental Omega team or Electronic Arts. All related names and assets belong to their respective rights holders.

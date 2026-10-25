@@ -3,6 +3,7 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/README.zh-CN.md
 !/Build-Overlay.ps1
 !/THIRD_PARTY_NOTICES.md
 !/artmo.ini
@@ -29,11 +30,9 @@
 !/licenses/
 !/docs/
 /docs/*
-!/docs/LICENSING.md
-!/docs/INSTALL.md
 !/docs/modified-wiki/
 /docs/modified-wiki/*
-!/docs/modified-wiki/html-refine/
+!/docs/modified-wiki/html/
 
 # Keep agent workspaces, instructions, and memory private at every depth.
 [Aa][Gg][Ee][Nn][Tt]/

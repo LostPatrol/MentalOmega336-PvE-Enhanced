@@ -1,7 +1,7 @@
 # Build a byte-preserving overlay ZIP with file hashes for an existing MO 3.3.6 install.
 [CmdletBinding()]
 param(
-    [string]$Version = '2026.10.24-preview.3',
+    [string]$Version = '0.1.0-beta',
     [string]$OutputDirectory = ''
 )
 
@@ -16,8 +16,8 @@ $packageRoots = @(
     'ra2md.csf', 'digits.shp', 'pips.shp', 'game.fnt',
     'expandmo34.mix', 'expandmo35.mix', 'Phobos.dll',
     'INI/MentalOmegaMaps.ini', 'Resources/GameOptions.ini', 'MapsMO/Demonic Modification',
-    'docs/modified-wiki/html-refine', 'licenses',
-    'README.md', 'THIRD_PARTY_NOTICES.md', 'docs/INSTALL.md', 'docs/LICENSING.md'
+    'docs/modified-wiki/html', 'licenses',
+    'README.md', 'README.zh-CN.md', 'THIRD_PARTY_NOTICES.md'
 )
 
 function Get-PackageFiles {
@@ -66,7 +66,12 @@ $manifest = [ordered]@{
     project = 'MentalOmega336-PvE-Enhanced'
     version = $Version
     requiredBase = 'Mental Omega 3.3.6 with Simplified Chinese localization'
-    status = 'preview; not validated in game; see docs/INSTALL.md for missing configuration'
+    status = 'beta; in-game and multiplayer validation incomplete; see README.md and release notes'
+    knownLimitations = @(
+        'The referenced rulesmo-JY.ini is not included in the available source files.',
+        'Some mission references remain unresolved; older missions may fail or display errors.',
+        'Some cooperative missions require manual country or starting-position selection.'
+    )
     files = $records
 }
 # UTF-8 without BOM keeps manifests portable across Windows PowerShell and PowerShell 7.
