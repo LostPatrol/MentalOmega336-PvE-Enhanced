@@ -52,6 +52,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\Build-Overlay.ps1
 
 ## 许可与致谢
 
-原创与第三方内容说明见[署名与权利说明](THIRD_PARTY_NOTICES.md)。Phobos build-38 沿用 LGPL v3，随附许可及对应源码链接。本仓库同时含有原创内容与基于Mental Omega官方的修改内容，仅供交流方便，请尊重各原创，勿二次分发。
+本仓库包含原创内容与基于 Mental Omega 官方的修改内容，请尊重各原创，勿二次分发。Phobos build-38 使用 [LGPL v3](licenses/Phobos-LGPL-3.0.md)，[对应源码](https://github.com/Phobos-developers/Phobos/tree/f23b2ffecfb2bee5a45d088592fdd7a7599d92f5)由上游提供。
 
 感谢 Mentalmeisters、Phobos 开发者及各素材作者。本项目与 Mental Omega 官方及 Electronic Arts 无隶属关系，未获其认可或支持；相关名称与素材权利归各自权利人所有。

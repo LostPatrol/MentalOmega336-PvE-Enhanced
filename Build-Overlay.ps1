@@ -17,7 +17,7 @@ $packageRoots = @(
     'expandmo34.mix', 'expandmo35.mix', 'Phobos.dll',
     'INI/MentalOmegaMaps.ini', 'Resources/GameOptions.ini', 'MapsMO/Demonic Modification',
     'docs/modified-wiki/html', 'licenses',
-    'README.md', 'README.zh-CN.md', 'THIRD_PARTY_NOTICES.md'
+    'README.md', 'README.zh-CN.md'
 )
 
 function Get-PackageFiles {

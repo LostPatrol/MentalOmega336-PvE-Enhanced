@@ -52,6 +52,6 @@ Output is placed in `dist/`.
 
 ## Licensing and Acknowledgements
 
-See [Third-Party Notices](THIRD_PARTY_NOTICES.md) for original and third-party content attributions and rights. Phobos build-38 remains under LGPL v3; its license and corresponding source link are included. This repository contains both original content and modifications based on the official Mental Omega content. It is shared for discussion and convenience; please respect the original creators and do not redistribute.
+This repository contains original work and modified Mental Omega content. Please respect the original creators and do not redistribute. Phobos build-38 uses [LGPL v3](licenses/Phobos-LGPL-3.0.md); its [corresponding source](https://github.com/Phobos-developers/Phobos/tree/f23b2ffecfb2bee5a45d088592fdd7a7599d92f5) is available upstream.
 
 Thanks to Mentalmeisters, the Phobos developers, and all asset creators. This project is not affiliated with, endorsed by, or supported by the official Mental Omega team or Electronic Arts. All related names and assets belong to their respective rights holders.
