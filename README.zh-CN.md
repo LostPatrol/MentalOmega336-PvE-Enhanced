@@ -16,7 +16,7 @@
 
 ### [在线Wiki](http://47.93.249.150/mo336-pve-enhanced/)
 
-[![玩家图鉴实页：单位图标、搜索筛选与修改前后的属性对比](docs/readme/wiki-overview.png)](http://47.93.249.150/mo336-pve-enhanced/)
+[![浅色模式玩家图鉴实页：单位图标、搜索筛选与修改前后的属性对比](docs/readme/wiki-overview-light.png)](http://47.93.249.150/mo336-pve-enhanced/)
 
 *浏览单位卡片、对比属性变化、查阅解锁路线。点击预览图即可进入 Wiki。*
 

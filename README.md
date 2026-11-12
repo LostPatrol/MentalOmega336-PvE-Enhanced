@@ -16,7 +16,7 @@
 
 ### [Online Wiki](http://47.93.249.150/mo336-pve-enhanced/)
 
-[![Player wiki showing unit portraits, searchable filters, and before/after stat comparisons](docs/readme/wiki-overview.png)](http://47.93.249.150/mo336-pve-enhanced/)
+[![Player wiki in light mode showing unit portraits, searchable filters, and before/after stat comparisons](docs/readme/wiki-overview-light.png)](http://47.93.249.150/mo336-pve-enhanced/)
 
 *Browse unit cards, compare changes, and explore unlock routes. Click the preview to open the wiki.*
 
