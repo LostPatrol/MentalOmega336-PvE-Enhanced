@@ -1,5 +1,7 @@
 # Mental Omega 3.3.6 PVE Enhanced
 
+[![v0.1.0-beta · Mental Omega 3.3.6 · Single-player and co-op PVE](docs/readme/project-badges.svg)](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/releases/tag/v0.1.0-beta)
+
 **Mental Omega 3.3.6 PVE Enhanced** is an unofficial PVE modification of Mental Omega 3.3.6, mainly for players who enjoy single-player and cooperative PVE.
 
 **[简体中文](README.zh-CN.md) · [Download Overlay](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/releases/download/v0.1.0-beta/MentalOmega336-PvE-Enhanced-0.1.0-beta-overlay.zip) · [Online Player Wiki](http://47.93.249.150/mo336-pve-enhanced/)**
@@ -14,9 +16,24 @@
 
 ### [Online Wiki](http://47.93.249.150/mo336-pve-enhanced/)
 
+[![Player wiki showing unit portraits, searchable filters, and before/after stat comparisons](docs/readme/wiki-overview.png)](http://47.93.249.150/mo336-pve-enhanced/)
+
+*Browse unit cards, compare changes, and explore unlock routes. Click the preview to open the wiki.*
+
+<details>
+<summary>Preview the faction technology tree</summary>
+
+[![Faction technology tree showing build paths, unit icons, and unlock conditions](docs/readme/wiki-tech-tree.png)](http://47.93.249.150/mo336-pve-enhanced/TECH.html)
+
+</details>
+
 Or browse the offline wiki: `docs/modified-wiki/html/index.html`
 
-**108 additions/unlocks**, **173 balance adjustments**, plus **138 campaign/special units and AI-only variants**.
+| Additions & unlocks | Balance adjustments | Co-op missions |
+| :---: | :---: | :---: |
+| **108** | **173** | **10** |
+
+Plus **138 campaign/special units and AI-only variants**.
 
 - **Expanded late-game technology:** New technology trees, structures, and support powers unlock advanced units and support capabilities.
 - **More advanced units and heroes:** New ways to build special, campaign-only, and infiltration-unlocked units from the original game.

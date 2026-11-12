@@ -1,5 +1,7 @@
 # 心灵终结 3.3.6 PVE 增强版
 
+[![v0.1.0-beta · Mental Omega 3.3.6 · 单人及合作 PVE](docs/readme/project-badges.svg)](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/releases/tag/v0.1.0-beta)
+
 **Mental Omega 3.3.6 PVE Enhanced** 是基于心灵终结 3.3.6 的非官方 PVE 修改版，主要面向爱好单人/合作PVE的玩家。
 
 **[English](README.md) · [下载覆盖包](https://github.com/LostPatrol/MentalOmega336-PvE-Enhanced/releases/download/v0.1.0-beta/MentalOmega336-PvE-Enhanced-0.1.0-beta-overlay.zip) · [在线玩家资料站](http://47.93.249.150/mo336-pve-enhanced/)**
@@ -14,9 +16,24 @@
 
 ### [在线Wiki](http://47.93.249.150/mo336-pve-enhanced/)
 
+[![玩家图鉴实页：单位图标、搜索筛选与修改前后的属性对比](docs/readme/wiki-overview.png)](http://47.93.249.150/mo336-pve-enhanced/)
+
+*浏览单位卡片、对比属性变化、查阅解锁路线。点击预览图即可进入 Wiki。*
+
+<details>
+<summary>展开查看阵营科技树</summary>
+
+[![阵营科技树实页：建造路线、单位图标与解锁条件](docs/readme/wiki-tech-tree.png)](http://47.93.249.150/mo336-pve-enhanced/TECH.html)
+
+</details>
+
 或离线wiki： `docs/modified-wiki/html/index.html`
 
-**108 项新增/解锁内容**， **173 项平衡性调整**，另有战役/特殊单位与 AI 专属变种138项
+| 新增 / 解锁内容 | 平衡性调整 | 合作任务地图 |
+| :---: | :---: | :---: |
+| **108** | **173** | **10** |
+
+另有战役/特殊单位与 AI 专属变种 **138 项**。
 
 - **扩展后期科技路线：** 新的科技树、建筑与支援技能，解锁高级战力和支援能力；
 - **更多高级单位与英雄:**为原版特殊单位、战役专属单位、渗透单位等添加了新的建造方式；

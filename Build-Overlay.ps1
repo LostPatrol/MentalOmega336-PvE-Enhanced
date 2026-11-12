@@ -16,7 +16,7 @@ $packageRoots = @(
     'ra2md.csf', 'digits.shp', 'pips.shp', 'game.fnt',
     'expandmo34.mix', 'expandmo35.mix', 'Phobos.dll',
     'INI/MentalOmegaMaps.ini', 'Resources/GameOptions.ini', 'MapsMO/Demonic Modification',
-    'docs/modified-wiki/html', 'licenses',
+    'docs/modified-wiki/html', 'docs/readme', 'licenses',
     'README.md', 'README.zh-CN.md'
 )
 

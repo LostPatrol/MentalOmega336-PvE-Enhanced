@@ -29,6 +29,7 @@
 !/licenses/
 !/docs/
 /docs/*
+!/docs/readme/
 !/docs/modified-wiki/
 /docs/modified-wiki/*
 !/docs/modified-wiki/html/
