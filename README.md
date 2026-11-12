@@ -16,14 +16,14 @@
 
 ### [Online Wiki](http://47.93.249.150/mo336-pve-enhanced/)
 
-![Player wiki in light mode showing unit portraits, searchable filters, and before/after stat comparisons](docs/readme/wiki-overview-light.png)
+[![Player wiki in light mode showing unit portraits, searchable filters, and before/after stat comparisons](docs/readme/wiki-overview-light.png)](http://47.93.249.150/mo336-pve-enhanced/)
 
 *Browse unit cards, compare changes, and explore unlock routes.*
 
 <details>
 <summary>Preview the faction technology tree</summary>
 
-![Faction technology tree showing build paths, unit icons, and unlock conditions](docs/readme/wiki-tech-tree.png)
+[![Faction technology tree showing build paths, unit icons, and unlock conditions](docs/readme/wiki-tech-tree.png)](http://47.93.249.150/mo336-pve-enhanced/TECH.html)
 
 </details>
 

@@ -16,14 +16,14 @@
 
 ### [在线Wiki](http://47.93.249.150/mo336-pve-enhanced/)
 
-![浅色模式玩家图鉴实页：单位图标、搜索筛选与修改前后的属性对比](docs/readme/wiki-overview-light.png)
+[![浅色模式玩家图鉴实页：单位图标、搜索筛选与修改前后的属性对比](docs/readme/wiki-overview-light.png)](http://47.93.249.150/mo336-pve-enhanced/)
 
 *浏览单位卡片、对比属性变化、查阅解锁路线。*
 
 <details>
 <summary>展开查看阵营科技树</summary>
 
-![阵营科技树实页：建造路线、单位图标与解锁条件](docs/readme/wiki-tech-tree.png)
+[![阵营科技树实页：建造路线、单位图标与解锁条件](docs/readme/wiki-tech-tree.png)](http://47.93.249.150/mo336-pve-enhanced/TECH.html)
 
 </details>
 
